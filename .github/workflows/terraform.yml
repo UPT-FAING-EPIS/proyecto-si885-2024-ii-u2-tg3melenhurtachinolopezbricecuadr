@@ -1,0 +1,42 @@
+name: Terraform Workflow
+
+on:
+  push:
+    branches:
+      - main  # O la rama que prefieras
+
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Paso 1: Checkout del código
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Paso 2: Configurar Terraform
+    - name: Set up Terraform
+      uses: hashicorp/setup-terraform@v2
+      with:
+        terraform_version: 5.77.0  # Usa la versión de Terraform que necesitas
+
+    # Paso 3: Ejecutar Terraform Init
+    - name: Terraform Init
+      run: terraform init
+
+    # Paso 4: Ejecutar Terraform Plan
+    - name: Terraform Plan
+      run: terraform plan
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+
+    # Paso 5: Aplicar Terraform (si el plan es correcto)
+    - name: Terraform Apply
+      run: terraform apply -auto-approve
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+
