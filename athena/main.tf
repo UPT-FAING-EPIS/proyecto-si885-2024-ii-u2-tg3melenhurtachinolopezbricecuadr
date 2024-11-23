@@ -42,3 +42,14 @@ resource "aws_athena_named_query" "athena_query" {
   query     = "SELECT * FROM ${var.database_name}.input LIMIT 200;"  # Ajusta la consulta si es necesario
   workgroup = "primary"
 }
+
+resource "null_resource" "upload_csv" {
+  triggers = {
+    file_hash = filemd5("dataset.csv")  # Detecta cambios en el archivo local
+  }
+
+  provisioner "local-exec" {
+    command = "aws s3 cp dataset.csv s3://${aws_s3_bucket.bucket.bucket}/data/input/dataset.csv"
+  }
+}
+
