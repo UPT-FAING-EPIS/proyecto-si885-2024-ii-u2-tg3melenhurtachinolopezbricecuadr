@@ -11,6 +11,8 @@ resource "aws_s3_object" "dataset" {
   acl          = "private"
   content_type = "text/csv"
   depends_on   = [aws_s3_bucket.bucket]
+  etag = filemd5("dataset.csv")  # Asegúrate de que se calcule el hash
+
 
   # Se asegura de que se actualice el archivo incluso si no cambia su ETag
   lifecycle {
