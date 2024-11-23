@@ -22,11 +22,15 @@ jobs:
 
     # Paso 3: Ejecutar Terraform Init
     - name: Terraform Init
-      run: terraform init
+      run: |
+        cd athena
+        terraform init
 
     # Paso 4: Ejecutar Terraform Plan
     - name: Terraform Plan
-      run: terraform plan
+      run: |
+        cd athena
+        terraform plan
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
