@@ -1,6 +1,6 @@
 ﻿Logo de Mi Empresa		Logo de mi Cliente
 
-![alt text](media/upt.png)
+![alt text](media/logo_upt.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
