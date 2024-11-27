@@ -168,15 +168,15 @@ I. Generalidades de la Empresa
 
 `	`Dashboard de Detección Temprana de Abandono Estudiantil para el área de tutoría de EPIS UPT
 
-1. Visión
+2. Visión
 
 `	`Brindar una solución tecnológica avanzada que permita a la Universidad Privada de Tacna identificar tempranamente a estudiantes en riesgo de abandono académico, optimizando los procesos de tutoría mediante el uso de un sistema de análisis predictivo, con el fin de mejorar la retención estudiantil y garantizar el éxito académico.
 
-1. Misión
+3. Misión
 
 `	`Desarrollar e implementar soluciones innovadoras, como el Dashboard de Detección Temprana de Abandono Estudiantil, que permitan identificar de manera proactiva a los estudiantes en riesgo, optimizando los procesos de tutoría y promoviendo estrategias efectivas para reducir el abandono estudiantil.
 
-1. Organigrama
+4. Organigrama
 
 ![alt text](media/fd03/Imagen1.png)
 
@@ -193,7 +193,7 @@ II. Visionamiento de la Empresa
 
 El **Dashboard de Detección Temprana de Abandono Estudiantil** aborda estos problemas mediante el uso de técnicas de análisis de datos y aprendizaje automático, proporcionando una evaluación más precisa y eficiente del riesgo de abandono. Esto permite intervenciones tempranas y mejora las tasas de retención estudiantil.
 
-1. Objetivos de Negocios
+2. Objetivos de Negocios
 
 `	`El propósito principal de este proyecto es desarrollar una solución tecnológica que permita a la universidad identificar a los estudiantes en riesgo de abandonar sus estudios de manera temprana, con el fin de tomar medidas preventivas oportunas. Los objetivos de negocio incluyen:
 
@@ -201,7 +201,7 @@ El **Dashboard de Detección Temprana de Abandono Estudiantil** aborda estos pro
 - **Optimizar el uso de los recursos institucionales** mediante la asignación adecuada de esfuerzos de tutoría y apoyo a los estudiantes en riesgo.
 - **Fortalecer la reputación institucional** al demostrar un compromiso activo con la retención y el éxito académico de los estudiantes.
 - **Reducir los costos asociados al abandono estudiantil**, aumentando el número de graduados y evitando la pérdida de estudiantes valiosos.
-1. Objetivos de Diseño
+3. Objetivos de Diseño
 
 `	`Los objetivos de diseño se centran en crear un sistema que sea tanto funcional como fácil de usar para los administradores y tutores de la universidad. Los objetivos de diseño incluyen:
 
@@ -209,15 +209,15 @@ El **Dashboard de Detección Temprana de Abandono Estudiantil** aborda estos pro
 - **Integrar un modelo predictivo** basado en datos históricos y actuales, como rendimiento académico, asistencia, factores socioeconómicos, entre otros.
 - **Ofrecer una plataforma intuitiva y accesible** para que los tutores y administradores puedan visualizar fácilmente los datos y tomar decisiones informadas.
 - **Garantizar la seguridad y privacidad de los datos** personales y académicos de los estudiantes.
-1. Alcance del Proyecto
+4. Alcance del Proyecto
 
 `	`El alcance de este proyecto incluye el desarrollo, implementación y despliegue de un dashboard interactivo que integre un modelo predictivo basado en datos históricos y actuales de los estudiantes, como rendimiento académico, asistencia y factores socioeconómicos. El dashboard proporcionará a los administradores y tutores una plataforma para visualizar los niveles de riesgo, analizar tendencias y tomar decisiones informadas que mejoren la retención estudiantil.
 
-1. Viabilidad del Sistema
+5. Viabilidad del Sistema
 
 `	`La viabilidad del **Dashboard de Detección Temprana de Abandono Estudiantil** se encuentra respaldada por la disponibilidad de tecnologías accesibles y avanzadas como el análisis de datos y el aprendizaje automático, que permiten la implementación de soluciones eficientes para la predicción del abandono estudiantil. Además, la universidad ya dispone de datos históricos relevantes sobre el rendimiento académico, asistencia y factores socioeconómicos de los estudiantes, lo que facilita la integración de estos datos en el sistema. Desde el punto de vista económico, la implementación del sistema se justifica por los beneficios a largo plazo, como la mejora en la retención estudiantil, la optimización de los recursos institucionales y el fortalecimiento de la imagen académica de la universidad. La utilización de herramientas y plataformas tecnológicas existentes en la universidad también hace que la implementación sea factible y rentable, asegurando un proceso de integración sin mayores complicaciones técnicas.
 
-1. Información Obtenida del Levantamiento de Información
+6. Información Obtenida del Levantamiento de Información
 
 `	`**Entrevistas con administradores y tutores de EPIS**: Estas entrevistas han ayudado a identificar las necesidades específicas de los usuarios y las limitaciones del sistema actual.
 
@@ -305,7 +305,7 @@ V. Fase de Desarrollo
 
 
 
-1. Modelo Conceptual
+2. Modelo Conceptual
 
    a) Diagrama de Paquetes
 
@@ -467,7 +467,7 @@ c) Escenarios de Caso de Uso (narrativa)
 
 
 
-1. Modelo Lógico
+3. Modelo Lógico
 
    a) Análisis de Objetos
 
