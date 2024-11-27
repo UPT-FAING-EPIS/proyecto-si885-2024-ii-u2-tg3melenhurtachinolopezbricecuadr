@@ -9,6 +9,9 @@ Este proyecto tiene como objetivo desarrollar un **Dashboard de Detección Tempr
 ## Docente
 **Ing. Cuadros Quiroga, Patrick José**
 
+## Enlace Dashboard: 
+https://app.powerbi.com/links/-6iWQRhE94?ctid=b6b466ee-468d-4011-b9fc-fbdcf82ac90a&pbi_source=linkShare&bookmarkGuid=07bc8e79-f8a7-4f72-acec-135230fe8a64
+
 ## Integrantes
 
 | Nombre                                      | Código      |
