@@ -103,12 +103,12 @@ Versión *{1.0}*
     1.4.2 Objetivos Específicos
     <p style="text-align: justify;">
         
-     - Identificar patrones en variables académicas como la inasistencia y las notas, así como su relación con el riesgo de abandono estudiantil.
-     - Proporcionar visualizaciones dinámicas y accesibles para facilitar la toma de decisiones informadas por parte de tutores y docentes en la intervención con estudiantes en riesgo.
-     - Analizar la influencia de variables sociodemográficas como el género, la edad, el curso, el ciclo académico, las faltas y las notas académicas en la continuidad de los estudios.
-     - Aprovechar datos históricos para identificar tendencias de deserción y optimizar las estrategias de tutoría a nivel institucional, fomentando la retención estudiantil.
-     - Evaluar el impacto de los cruces de horarios y su relación con la asistencia y el desempeño académico, para proponer ajustes en la planificación de horarios y estrategias de retención.
-     - Establecer indicadores clave de desempeño estudiantil mediante el análisis combinado de matrícula, faltas y notas, que permitan monitorear el progreso académico y detectar a tiempo a los estudiantes en riesgo.
+     - Analizar y visualizar la distribución de estudiantes por curso para identificar aquellas asignaturas que tienen mayor número de alumnos, lo que permite tomar decisiones académicas y administrativas informadas sobre la gestión de recursos y el seguimiento académico.
+     - Desarrollar un módulo dentro del dashboard que permita visualizar, analizar y generar reportes detallados sobre las inasistencias de los estudiantes, desglosados por semestre y curso, con el fin de facilitar el seguimiento y la toma de decisiones sobre la gestión académica y el rendimiento estudiantil.
+     - Analizar el promedio de notas por curso según la consideración de abandono estudiantil, para identificar asignaturas críticas que requieran estrategias específicas de intervención y apoyo.
+     - Desarrollar un módulo dentro del dashboard que permita analizar la relación entre las faltas y el rendimiento académico de los estudiantes, clasificando el riesgo de abandono por niveles (bajo, medio, alto) y segmentado por semestre y curso, con el fin de priorizar intervenciones de tutoría para los estudiantes más vulnerables.
+     - Identificar tendencias de mejora o descenso en el rendimiento académico y comparar el desempeño entre diferentes cursos.
+     - Desarrollar un módulo que permita visualizar el máximo y mínimo de notas por curso y semestre para estudiantes con segunda matrícula, segmentado por género, con el objetivo de identificar patrones de rendimiento académico y posibles riesgos de abandono estudiantil.
 
 3. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
 
