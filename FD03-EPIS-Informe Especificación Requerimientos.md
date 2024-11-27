@@ -337,133 +337,73 @@ V. Fase de Desarrollo
 
 c) Escenarios de Caso de Uso (narrativa)
 
-|**Generar Gráfico Estadístico de Alumnos por Curso**||
+|**Generar Gráfico Estadístico de Alumnos por Curso**| |
 | :-: | :- |
 |**Tipo**|**Obligatorio**|
 |**Actores**|Administrador, Sistema|
 |**Descripción**|Este caso de uso permite al administrador generar gráficos estadísticos para visualizar el ranking de cursos por cantidad de estudiantes, así como filtrar los cursos por ciclo académico.|
-|**Precondiciones**|<p>- El sistema debe contar con datos actualizados de matrículas de los estudiantes.</p><p>- El usuario debe haber iniciado sesión en el sistema.</p>|
-|**Narrativa de cada de uso**||
+|**Precondiciones**| - El sistema debe contar con datos actualizados de matrículas de los estudiantes.<br>- El usuario debe haber iniciado sesión en el sistema.|
+|**Narrativa de caso de uso**| |
 |**Acción del usuario**|**Respuesta del sistema**|
-|||
+|El administrador selecciona la opción de "Gráficos Estadísticos".|El sistema muestra una lista de opciones para generar gráficos.|
+|El administrador selecciona el gráfico de ranking por cantidad de estudiantes.|El sistema genera y muestra el gráfico correspondiente.|
+|El administrador aplica un filtro por ciclo académico.|El sistema actualiza el gráfico aplicando el filtro seleccionado.|
 
-|El administrador selecciona la opción de "Gráficos Estadísticos".|
-| :- |
+---
 
-|||
-| :- | :- |
-
-|El sistema muestra una lista de opciones para generar gráficos.|
-| :- |
-
-|||
-| :- | :- |
-|||
-
-|El administrador selecciona el gráfico de ranking por cantidad de estudiantes.|
-| :- |
-
-|||
-| :- | :- |
-
-|El sistema genera y muestra el gráfico correspondiente.|
-| :- |
-
-|||
-| :- | :- |
-|||
-
-|El administrador aplica un filtro por ciclo académico.|
-| :- |
-
-|||
-| :- | :- |
-
-|El sistema actualiza el gráfico aplicando el filtro seleccionado.|
-| :- |
-
-|||
-| :- | :- |
-
-
-|**Generar Análisis y Reporte de Inasistencias por Estudiante, Semestre y Curso**||
+|**Generar Análisis y Reporte de Inasistencias por Estudiante, Semestre y Curso**| |
 | :-: | :- |
 |**Tipo**|**Obligatorio**|
 |**Actores**|Tutor, Sistema|
 |**Descripción**|Este caso de uso permite analizar y generar reportes sobre las inasistencias de los estudiantes, categorizadas por semestre y curso, para identificar patrones y posibles problemas.|
-|**Precondiciones**|<p>- El sistema debe contar con registros de asistencia actualizados.</p><p>- El usuario debe contar con permisos para generar reportes.</p>|
-|**Narrativa de cada de uso**||
+|**Precondiciones**| - El sistema debe contar con registros de asistencia actualizados.<br>- El usuario debe contar con permisos para generar reportes.|
+|**Narrativa de caso de uso**| |
 |**Acción del usuario**|**Respuesta del sistema**|
 |El tutor selecciona "Análisis de Inasistencias" en el menú del sistema.|El sistema solicita los parámetros del análisis (estudiante, semestre, curso).|
-|||
-
-|El tutor elige los parámetros y confirma la acción.|
-| :- |
-
-|||
-| :- | :- |
-
-|El sistema genera y muestra el análisis en forma de gráfico y tabla.|
-| :- |
-
-|||
-| :- | :- |
+|El tutor elige los parámetros y confirma la acción.|El sistema genera y muestra el análisis en forma de gráfico y tabla.|
 |El tutor selecciona la opción de generar reporte.|El sistema descarga el reporte en formato PDF o Excel.|
 
+---
 
-
-|**Analizar el Promedio de Notas por Curso y Consideración de Abandono**||
+|**Analizar el Promedio de Notas por Curso y Consideración de Abandono**| |
 | :-: | :- |
 |**Tipo**|**Obligatorio**|
 |**Actores**|Tutor, Sistema|
 |**Descripción**|Este caso de uso permite al tutor analizar el promedio de notas de los estudiantes por curso y categorizar el riesgo de abandono.|
-|**Precondiciones**|<p>- El sistema debe contar con los promedios de notas registrados.</p><p>- El usuario debe tener permisos para visualizar datos académicos.</p>|
-|**Narrativa de cada de uso**||
+|**Precondiciones**| - El sistema debe contar con los promedios de notas registrados.<br>- El usuario debe tener permisos para visualizar datos académicos.|
+|**Narrativa de caso de uso**| |
 |**Acción del usuario**|**Respuesta del sistema**|
-|||
-
-|El tutor selecciona "Promedio de Notas" en el dashboard.|
-| :- |
-
-|||
-| :- | :- |
-
-|El sistema solicita seleccionar el curso a analizar.|
-| :- |
-
-|||
-| :- | :- |
+|El tutor selecciona "Promedio de Notas" en el dashboard.|El sistema solicita seleccionar el curso a analizar.|
 |El tutor selecciona un curso y solicita el análisis.|El sistema muestra un gráfico con el promedio de notas y una categorización de riesgo de abandono.|
 |El tutor solicita exportar el análisis.|El sistema genera un archivo descargable con los resultados.|
 
+---
 
-
-|**Identificar Estudiantes en Riesgo de Abandono mediante Análisis de Faltas y Rendimiento Académico**||
+|**Identificar Estudiantes en Riesgo de Abandono mediante Análisis de Faltas y Rendimiento Académico**| |
 | :-: | :- |
 |**Tipo**|**Obligatorio**|
 |**Actores**|Tutor, Sistema|
 |**Descripción**|Este caso de uso permite identificar estudiantes en riesgo de abandono al analizar la relación entre sus faltas y rendimiento académico.|
-|**Precondiciones**|<p>- El sistema debe contar con datos históricos de asistencia y calificaciones.</p><p>- El tutor debe tener acceso autorizado.</p>|
-|**Narrativa de cada de uso**||
+|**Precondiciones**| - El sistema debe contar con datos históricos de asistencia y calificaciones.<br>- El tutor debe tener acceso autorizado.|
+|**Narrativa de caso de uso**| |
 |**Acción del usuario**|**Respuesta del sistema**|
 |El tutor selecciona "Análisis de Riesgo de Abandono" en el sistema.|El sistema solicita los criterios de análisis (faltas, calificaciones, etc.).|
 |El tutor establece los criterios y solicita el análisis.|El sistema genera un listado de estudiantes en riesgo con gráficos asociados.|
 |El tutor selecciona un estudiante para un análisis detallado.|El sistema muestra un perfil con el análisis completo del estudiante seleccionado.|
 
+---
 
-
-|**Consultar Cruces de Horarios**||
+|**Consultar Cruces de Horarios**| |
 | :-: | :- |
 |**Tipo**|**Obligatorio**|
 |**Actores**|Administrador, Sistema|
 |**Descripción**|Este caso de uso permite al administrador analizar los cruces de horarios de los estudiantes y evaluar su impacto en el rendimiento académico.|
-|**Precondiciones**|<p>- Los horarios y matrículas de los estudiantes deben estar actualizados en el sistema.</p><p>- El usuario debe tener permisos para acceder a estos datos.</p>|
-|**Narrativa de cada de uso**||
+|**Precondiciones**| - Los horarios y matrículas de los estudiantes deben estar actualizados en el sistema.<br>- El usuario debe tener permisos para acceder a estos datos.|
+|**Narrativa de caso de uso**| |
 |**Acción del usuario**|**Respuesta del sistema**|
 |El administrador selecciona "Análisis de Horarios" en el sistema.|El sistema solicita seleccionar el período académico y el estudiante.|
 |El administrador selecciona un estudiante y solicita el análisis.|El sistema muestra una tabla con los cruces de horarios detectados y su impacto.|
 |El administrador solicita un reporte del análisis.|El sistema genera un archivo descargable con los datos.|
-
 
 
 
