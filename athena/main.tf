@@ -52,4 +52,3 @@ resource "null_resource" "upload_csv" {
     command = "aws s3 cp dataset.csv s3://${aws_s3_bucket.bucket.bucket}/data/input/dataset.csv"
   }
 }
-
