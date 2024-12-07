@@ -1,6 +1,6 @@
 variable "bucket_name" {
   description = "Nombre del bucket S3"
-  default     = "aws-glue-proyect"
+  default     = "aws-glue-proyecto"
 }
 
 variable "database_name" {
