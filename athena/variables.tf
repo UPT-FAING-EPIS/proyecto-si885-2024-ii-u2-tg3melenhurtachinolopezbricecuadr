@@ -17,3 +17,4 @@ variable "athena_results_bucket" {
   description = "Nombre del bucket de resultados de Athena"
   default     = "athena-results-proyect"
 }
+
