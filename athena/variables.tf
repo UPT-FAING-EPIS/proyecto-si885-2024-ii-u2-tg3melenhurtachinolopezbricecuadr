@@ -5,16 +5,16 @@ variable "bucket_name" {
 
 variable "database_name" {
   description = "Nombre de la base de datos Glue"
-  default     = "segunda_matricula_data"
+  default     = "segunda_matricula_dataset"
 }
 
 variable "crawler_name" {
   description = "Nombre del Crawler de Glue"
-  default     = "segunda_matricula_crawler"
+  default     = "segunda_matricula_crawlerv2"
 }
 
 variable "athena_results_bucket" {
   description = "Nombre del bucket de resultados de Athena"
-  default     = "athena-results-proyect"
+  default     = "athena-results-proyecto"
 }
 
